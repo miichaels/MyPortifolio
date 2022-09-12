@@ -1,0 +1,302 @@
+/*teste*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: #000000;
+    color: #000000;
+  }
+
+  .nome{
+    font-variant: normal;
+  }
+
+  .im{
+    width: 800px;
+    height: 500px;
+  }
+
+  /*teste */
+  /* slider section */
+.slider_section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 0 250px;
+  background: #faf9fa;
+}
+
+.slider_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_section #customCarousel1 {
+  width: 100%;
+  position: unset;
+}
+
+
+.slider_section .detail-box h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.slider_section .detail-box .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -5px;
+  margin-top: 15px;
+}
+
+.slider_section .detail-box .btn-box a {
+  margin: 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.slider_section .detail-box .btn-box .btn1 {
+  display: inline-block;
+  padding: 12px 15px;
+  background-color: #f1bc31;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #f1bc31;
+}
+
+.slider_section .detail-box .btn-box .btn1:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+
+.slider_section .img-box img {
+  width: 100%;
+}
+
+.slider_section .carousel-indicators {
+  position: unset;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+}
+
+.slider_section .carousel-indicators li {
+  background-color: #31bfb1;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.slider_section .carousel-indicators li.active {
+  width: 23px;
+  height: 23px;
+  background-color: #52504f;
+}
+  /*teste*/
+  
+  .conteiner{
+    display: inline-flex;
+  }
+  
+  .conteiner .estatico {
+    color: #000000;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .conteiner .dinamico{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+  }
+  
+  .dinamico li{
+    color: #646464;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+  }
+  @keyframes slide{
+    100%{
+      top: -360px
+    }
+  }
+  .dinamico li span::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-left: 2px solid #545454;
+    animation: typing 1.5s steps(10) infinite;
+    background: #ffffff;
+  }
+  .dinamico li span{
+    position: relative;
+  }
+  @keyframes typing{
+    100%{
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+  .cor{
+    color: #31bfb1;
+  }
+  .espacamento{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+
+  /* Projetos */
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul.social-network {
+    list-style: none;
+    padding: 0;
+}
+
+.fa-linkedin-square {
+    font-size: 35pt;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.img {
+    height: 344.01px;
+}
+
+li {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+.fa {
+    font-size: 35pt;
+    padding: 16px;
+}
+.fa-rocket{
+  color: rgb(225, 0, 0);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-rocket:hover {
+    color: #36d63e;
+}
+
+.fa-github:hover {
+    color: #c5bbbb;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.rotatingList {
+    width: 100%;
+    height: 200px;
+    position:relative;
+}
+
+.list,
+.list-bis {
+    width: 3700px;
+    position: absolute;
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: pan;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.list-bis {
+    left: 1850px;
+}
+
+.card2 {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.card1 {
+    background: #ffffff;
+}
+
+.card2 {
+    background: #ffffff;
+}
+
+.card3 {
+    background: #ffffff;
+}
+
+.card4 {
+    background: #ffffff;
+}
+
+.card5 {
+    background: #ffffff;
+}
+
+@keyframes pan {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1850px);
+    }
+}
