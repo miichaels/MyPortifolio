@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CVComponent } from './cv/cv.component';
 import { HomeComponent } from './home/home.component';
-import { ProjetosComponent } from './projetos/projetos.component';
 import { RodapeComponent } from './rodape/rodape.component';
 
 const routes: Routes = [
@@ -11,7 +10,6 @@ const routes: Routes = [
 
   //Outras rotas
   { path: 'rodape', component: RodapeComponent },
-  { path: 'projetos', component: ProjetosComponent},
   { path: 'home', component: HomeComponent},
   { path: 'cv', component: CVComponent}
 

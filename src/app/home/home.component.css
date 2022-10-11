@@ -212,15 +212,15 @@ p {
     font-size: 35pt;
     padding: 16px;
 }
-.fa-rocket{
-  color: rgb(225, 0, 0);
+.fa-play{
+  color: rgb(5, 2, 2);
 }
 
 .fa-github {
     color: black;
 }
 
-.fa-rocket:hover {
+.fa-play:hover {
     color: #36d63e;
 }
 

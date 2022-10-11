@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProjetosComponent } from './projetos/projetos.component';
 import { CVComponent } from './cv/cv.component';
 
 @NgModule({
@@ -15,8 +14,7 @@ import { CVComponent } from './cv/cv.component';
     HomeComponent,
     RodapeComponent,
     NavbarComponent,
-    ProjetosComponent,
-    CVComponent  
+    CVComponent
   ],
   imports: [
     BrowserModule,
