@@ -1,4 +1,3 @@
-/*teste*/
 body{
     display: flex;
     align-items: center;
@@ -8,16 +7,6 @@ body{
     color: #000000;
   }
 
-  .nome{
-    font-variant: normal;
-  }
-
-  .im{
-    width: 800px;
-    height: 500px;
-  }
-
-  /*teste */
   /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -111,7 +100,7 @@ body{
   height: 23px;
   background-color: #52504f;
 }
-  /*teste*/
+
   
   .conteiner{
     display: inline-flex;
@@ -271,24 +260,8 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.card1 {
-    background: #ffffff;
-}
-
-.card2 {
-    background: #ffffff;
-}
-
-.card3 {
-    background: #ffffff;
-}
-
-.card4 {
-    background: #ffffff;
-}
-
-.card5 {
-    background: #ffffff;
+.marginCard{
+  margin-right: 20px;
 }
 
 @keyframes pan {
